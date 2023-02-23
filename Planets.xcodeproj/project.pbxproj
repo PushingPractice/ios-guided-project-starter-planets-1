@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0099EF3329A7925D007AFC3E /* PlanetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EF3229A7925D007AFC3E /* PlanetsCollectionViewController.swift */; };
+		0099EF3529A79298007AFC3E /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EF3429A79298007AFC3E /* PlanetCollectionViewCell.swift */; };
+		0099EF3729A792B2007AFC3E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EF3629A792B2007AFC3E /* SettingsViewController.swift */; };
+		0099EF3A29A82079007AFC3E /* SettingsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EF3929A82079007AFC3E /* SettingsKeys.swift */; };
 		9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD062113609700A55978 /* AppDelegate.swift */; };
 		9DDBBD0C2113609700A55978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0A2113609700A55978 /* Main.storyboard */; };
 		9DDBBD0E2113609800A55978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0D2113609800A55978 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0099EF3229A7925D007AFC3E /* PlanetsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsCollectionViewController.swift; sourceTree = "<group>"; };
+		0099EF3429A79298007AFC3E /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
+		0099EF3629A792B2007AFC3E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0099EF3929A82079007AFC3E /* SettingsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsKeys.swift; sourceTree = "<group>"; };
 		9DDBBD032113609700A55978 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDBBD062113609700A55978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DDBBD0B2113609700A55978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,9 +45,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0099EF3829A792F0007AFC3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0099EF3429A79298007AFC3E /* PlanetCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		27F670EB21EFC6AA0035C1BF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0099EF3629A792B2007AFC3E /* SettingsViewController.swift */,
+				0099EF3229A7925D007AFC3E /* PlanetsCollectionViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -63,6 +81,7 @@
 		9DDBBD052113609700A55978 /* Planets */ = {
 			isa = PBXGroup;
 			children = (
+				0099EF3829A792F0007AFC3E /* Views */,
 				9DDBBD062113609700A55978 /* AppDelegate.swift */,
 				27F670EB21EFC6AA0035C1BF /* View Controllers */,
 				9DDBBD1A211360D500A55978 /* Model */,
@@ -87,6 +106,7 @@
 				9DDBBD0D2113609800A55978 /* Assets.xcassets */,
 				9DDBBD0F2113609800A55978 /* LaunchScreen.storyboard */,
 				9DDBBD122113609800A55978 /* Info.plist */,
+				0099EF3929A82079007AFC3E /* SettingsKeys.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -173,7 +193,11 @@
 			files = (
 				9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */,
 				9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */,
+				0099EF3529A79298007AFC3E /* PlanetCollectionViewCell.swift in Sources */,
+				0099EF3329A7925D007AFC3E /* PlanetsCollectionViewController.swift in Sources */,
 				9DDBBD19211360D100A55978 /* Planet.swift in Sources */,
+				0099EF3729A792B2007AFC3E /* SettingsViewController.swift in Sources */,
+				0099EF3A29A82079007AFC3E /* SettingsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
